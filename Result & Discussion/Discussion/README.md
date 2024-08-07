@@ -1,5 +1,8 @@
 Report on Growth Rate Analysis of Black Fungi Colony (Hypae Penta)
+
+
 Introduction
+
 The primary objective of this study was to analyze the growth rate of the black fungi colony, Hypae Penta. To achieve this, we first segmented the samples and calculated the area of the black fungi over a series of images taken over time. This allowed us to generate a graph representing the Total Black Fungi Growth. We then proceeded to calculate the growth for three specific patches separately and determined the Average Growth Rate of the Black Fungi (Hypae Penta).
 
 Total Black Fungi Growth Analysis
