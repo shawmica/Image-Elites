@@ -8,7 +8,8 @@ In the pre-processing phase. 1st we loaded sample images of all the 14 days and 
  
 
 After loaded sample images we cropped white background for avoid the unnecessary influence in our calculation
-![image](https://github.com/user-attachments/assets/9fb9c295-c707-4b3f-a7a5-1795a3ad9c18)---> ![image](https://github.com/user-attachments/assets/dea578df-6bd7-4d4c-a708-fe7c5be7bc36)
+![image](https://github.com/user-attachments/assets/b6289d4d-054c-494d-bf84-4c93b44b5869)
+
 
 
 
