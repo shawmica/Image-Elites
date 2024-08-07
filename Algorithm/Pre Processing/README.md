@@ -1,43 +1,57 @@
-##Image pre-processing phase
+# Image Pre-Processing Phase
 
+## Overview
 
-In the pre-processing phase. 1st we loaded sample images of all the 14 days and here we showed the sample 20th image which is from pixel device throughout this algorithm process.
+In this phase, we process images to prepare them for further analysis. This involves several steps including loading images, cropping, noise reduction, and image sharpening.
 
+## Steps
 
+### 1. Loading Sample Images
 
-![image](https://github.com/user-attachments/assets/65aaf098-0e2f-4bc2-9f08-8867669d34fd)
-20th image
- 
+We load sample images from a 14-day dataset. Below is an example of the 20th image from a Pixel device used throughout this process.
 
-After loaded sample images we cropped white background for avoid the unnecessary influence in our calculation
-![image](https://github.com/user-attachments/assets/b6289d4d-054c-494d-bf84-4c93b44b5869)
-
-
-
-
-
-In order to apply gaussian blur to make this process efficient and to simplify the cropped samples by reducing 3 channels into 1 channel. After that we applied gaussian blur to reduce random noise which were produced during dataset preparation. In this stage you may think why we didn't choose other filters? After the noise reduction process we need to sharpen the images. For sharpening we choose to apply laplacian filter. To make this sharpened image more effective we decided that gaussian blur is the best choice.
+![image](https://github.com/user-attachments/assets/cee1de9c-91d3-4d9b-bac8-a8d3d676d4d9)
 
 
 
+### 2. Cropping the White Background
+
+To avoid unnecessary influence in our calculations, we crop out the white background from the images.
+
+![Cropped Image](https://github.com/user-attachments/assets/b6289d4d-054c-494d-bf84-4c93b44b5869)
+
+### 3. Applying Gaussian Blur
+
+To make the process efficient and to simplify the cropped samples, we reduce the 3 color channels into 1. Gaussian blur is applied to reduce random noise produced during dataset preparation. We chose Gaussian blur because it allows for effective noise reduction, which is essential for the subsequent sharpening step.
 
 
+![image](https://github.com/user-attachments/assets/38af120a-febc-4272-b5bf-cd3b95ef52c3)
 
 
+### 4. Sharpening the Images
 
-Next, we applied laplacian because in our case the fungal growth didn't have a definite shape. So, this laplacian filter can detect edges in all directions simultaneously.
+#### Step 4.1: Applying the Laplacian Filter
 
+We apply the Laplacian filter to the blurred images. This filter detects edges in all directions simultaneously, which is useful for identifying fungal growth that lacks a definite shape.
 
-
-After applied the laplacian filter we subtracted from previous output and got sharpened images as shown as below.
-
-
-
+![image](https://github.com/user-attachments/assets/401b9c9d-50ed-4a45-8606-9e4da03a5c99)
 
 
-So, these are the steps that conclude the algorithm of the pre-processing phase. 
- 
-This is the simple overview of our pre-processing phase.
- 
-	
+#### Step 4.2: Subtracting the Laplacian Output
 
+After applying the Laplacian filter, we subtract its output from the previous image to obtain sharpened images.
+
+
+![image](https://github.com/user-attachments/assets/308646cc-c6bd-4652-901a-415ab9ebb481)
+
+
+## Conclusion
+
+These steps summarize the pre-processing phase of our algorithm. Below is the simplified overview of the process:
+
+1. Load sample images.
+2. Crop the white background.
+3. Apply Gaussian blur to reduce noise.
+4. Sharpen images using the Laplacian filter.
+
+This concludes the pre-processing phase of our image processing algorithm.
