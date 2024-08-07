@@ -1,4 +1,4 @@
-#Image pre-processing phase
+Image pre-processing phase
 
 In the pre-processing phase. 1st we loaded sample images of all the 14 days and here we showed the sample 20th image which is from pixel device throughout this algorithm process. 
 After loaded sample images we cropped white background for avoid the unnecessary influence in our calculation
