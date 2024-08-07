@@ -51,7 +51,3 @@ The entire process was completed over 14 days, with continuous monitoring and do
 
 This project highlights the importance of substrate selection, image acquisition techniques, and environmental control in the study of fungal colony growth. The findings contribute to a better understanding of fungal behavior in nutrient-rich environments like coconut flesh.
 
----
-
-### Acknowledgments
-We extend our gratitude to the biomedical molecular biologist who provided insights into the identification of fungal species.
