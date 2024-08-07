@@ -5,7 +5,8 @@ This repository outlines the image segmentation process we followed for our anal
 ## 1. Dilation for Preprocessed Image
 We chose dilation for the preprocessed image to connect nearby components of patches. This step won't affect our goal analysis because we performed dilation for all the samples equally.
 
-![image](https://github.com/user-attachments/assets/a767f6fa-6217-4df2-880d-f1531599a6ce)           ![image](https://github.com/user-attachments/assets/3eca9911-93ad-45ce-8c6d-26f2d4d4095a)
+![image](https://github.com/user-attachments/assets/7fc56659-9268-4102-b2f3-39c205207557)
+
 
 
 
