@@ -27,6 +27,8 @@ We calculated the growth for three separate patches and generated a graph for th
 Flood Fill Area of Each Sample
 
 The graph below represents the Flood Fill Area of Each Sample, with the X-axis representing a series of images taken over time and the Y-axis measuring the flood fill area on each sample.
+![image](https://github.com/user-attachments/assets/d173af53-33ba-4127-8685-7e14a613c3d2)
+
 
 Observations
 
@@ -36,12 +38,23 @@ Observations
 
 We performed similar analyses for the other two patches and observed the following:
 
+![image](https://github.com/user-attachments/assets/250d24bc-c315-49bd-8b46-99c110f63960)
+![image](https://github.com/user-attachments/assets/6f8ef7b9-c13c-4561-908e-76486cdd1bf3)
+
+
+
 High peaks on image indices 19 and 25 were due to inconsistencies in the zoom value during the experimental setup.
 Consistency in the experimental setup is crucial for accurate scientific results.
 Area Calculations
 From the calculated three graphs, we derived the area values for each patch.
 
+![image](https://github.com/user-attachments/assets/98e10e94-35ca-48cd-89f0-322ee9ace2c2)
+
+
 Growth of Black Patch Area per Day
+
+![image](https://github.com/user-attachments/assets/4ed9a201-8a7d-47cd-bf4f-a8f711db380e)
+
 
 We generated the Growth of Black Patch Area per Day for three patches separately and observed the following:
 
@@ -50,6 +63,8 @@ We generated the Growth of Black Patch Area per Day for three patches separately
 •	The white fungi had a short lifespan of approximately two days, after which the black fungi regained its area.
 
 Average Growth Rate Calculation
+![image](https://github.com/user-attachments/assets/3e5b1dea-67c8-43c5-a1da-cf5ba2400ff7)
+
 
 Our primary goal was to calculate the Average Growth Rate per Day for Black Patch Area.
 
