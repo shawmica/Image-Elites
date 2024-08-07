@@ -27,6 +27,7 @@ We calculated the growth for three separate patches and generated a graph for th
 Flood Fill Area of Each Sample
 
 The graph below represents the Flood Fill Area of Each Sample, with the X-axis representing a series of images taken over time and the Y-axis measuring the flood fill area on each sample.
+
 ![image](https://github.com/user-attachments/assets/d173af53-33ba-4127-8685-7e14a613c3d2)
 
 
